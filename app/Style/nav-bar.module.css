@@ -1,0 +1,24 @@
+.navBarMain {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: aqua;
+  justify-content: space-evenly;
+  font-size: 1rem;
+}
+.navBarMain li {
+  margin: 8px;
+  background-color: rgb(23, 9, 73);
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 yellow;
+  transition: transform 0.2s, box-sahdow 0.2s;
+}
+.navBarMain li:active {
+  transform: translateX(4px) translateY(4px);
+  box-shadow: 0 0 0 red;
+}
+.navBarMain li:hover {
+  background-color: rgb(106, 106, 183);
+}
