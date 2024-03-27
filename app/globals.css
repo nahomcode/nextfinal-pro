@@ -18,16 +18,35 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: grey; /*(
+  background: grey;
+} /*(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));*/
+    rgb(var(--background-start-rgb));
 }
 
-@layer utilities {
+/*@layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}*/
+.search input {
+  font-size: 16px;
+  font-family: "lexend", sans-serif;
+  color: #333333;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 700px;
+}
+
+.search {
+  margin: 0.5cm;
+  width: max-content;
+  display: flex;
+  padding: 14px;
+  border-radius: 28px;
+  background-color: #f6f6f6;
 }
